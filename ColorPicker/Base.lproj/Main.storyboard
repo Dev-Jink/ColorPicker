@@ -26,21 +26,21 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UzM-5Q-tLP">
                                 <rect key="frame" x="16" y="480" width="382" height="150"/>
                                 <subviews>
-                                    <slider opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Qwx-rX-FGh">
+                                    <slider opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="51" minValue="0.0" maxValue="51" translatesAutoresizingMaskIntoConstraints="NO" id="Qwx-rX-FGh">
                                         <rect key="frame" x="-2" y="0.0" width="386" height="31"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
                                         <connections>
                                             <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="GdS-PJ-afh"/>
                                         </connections>
                                     </slider>
-                                    <slider opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="4g8-ea-Sac">
+                                    <slider opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="51" minValue="0.0" maxValue="51" translatesAutoresizingMaskIntoConstraints="NO" id="4g8-ea-Sac">
                                         <rect key="frame" x="-2" y="40" width="386" height="31"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
                                         <connections>
                                             <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="vBg-v5-wLr"/>
                                         </connections>
                                     </slider>
-                                    <slider opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="sje-wv-Hsi">
+                                    <slider opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="51" minValue="0.0" maxValue="51" translatesAutoresizingMaskIntoConstraints="NO" id="sje-wv-Hsi">
                                         <rect key="frame" x="-2" y="80" width="386" height="31"/>
                                         <connections>
                                             <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="og2-3B-ImZ"/>

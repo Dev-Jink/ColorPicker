@@ -46,8 +46,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var blueSlider: UISlider!
     
     // MARK: Privates
-    private let rgbStep:            Float = 255.0
-    private let numberOfRGBStep:    Int = 256
+    private let rgbStep:            Float = 51.0
+    private let numberOfRGBStep:    Int = 52
     private let numberOfAlphaStep:  Int = 11
     
     // MARK: IBAction
@@ -73,9 +73,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redSlider.value = 255
-        greenSlider.value = 255
-        blueSlider.value = 255
+        redSlider.value = 51
+        greenSlider.value = 51
+        blueSlider.value = 51
         for i in 0..<self.pickerView.numberOfComponents {
             let numberOfRows:   Int = self.pickerView.numberOfRows(inComponent: i)
             self.pickerView.selectRow(numberOfRows - 1, inComponent: i, animated: false)
@@ -125,7 +125,7 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         if component == ColorComponent.alpha {
             return String(format: "%1.1lf", Double(row) * 0.1)
         } else {
-            return "\(row)"
+            return "\(row * 5)"
         }
     }
     
